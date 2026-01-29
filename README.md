@@ -78,21 +78,22 @@ Each simulation produces:
 •	Visual comparisons across model structures and routes of administration
 Plots are generated using ggplot2 with consistent scaling to facilitate comparison.
 
+
 #Model 1
 
-![Concentration–Time Profile](outputs/model1_plot.png)
+![Concentration–Time Profile](model1_plot.png)
 
-## Model 2
+#Model 2
 
-![Concentration–Time Profile](outputs/model2_plot.png)
+![Concentration–Time Profile](model2_plot.png)
 
 #Model 3
 
-![Concentration–Time Profile](outputs/model3_plot.png)
+![Concentration–Time Profile](model3_plot.png)
 
 #Model 4
 
-![Concentration–Time Profile](outputs/model4_plot.png)
+![Concentration–Time Profile](model4_plot.png)
 
 **Intended Use**
 
