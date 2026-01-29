@@ -81,19 +81,19 @@ Plots are generated using ggplot2 with consistent scaling to facilitate comparis
 
 #Model 1
 
-![Concentration–Time Profile](model1_plot.png)
+![Concentration–Time Profile](./model1_plot.png)
 
 #Model 2
 
-![Concentration–Time Profile](model2_plot.png)
+![Concentration–Time Profile](./model2_plot.png)
 
 #Model 3
 
-![Concentration–Time Profile](model3_plot.png)
+![Concentration–Time Profile](./model3_plot.png)
 
 #Model 4
 
-![Concentration–Time Profile](model4_plot.png)
+![Concentration–Time Profile](./model4_plot.png)
 
 **Intended Use**
 
