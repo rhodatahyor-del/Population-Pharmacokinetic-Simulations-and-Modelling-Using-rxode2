@@ -140,7 +140,7 @@ simulation_rxode_no_iiv   <- rxSolve(my_model_1_cmpt_no_iiv,
 sim_rxode_dataframe_no_iiv <- as.data.frame(simulation_rxode_no_iiv)
 
 # Plot 1
-themeing_pattern <- theme(panel.grid.major = element_line(linetype = "dashed"), panel.grid.minor = element_blank(), legend.position = "none") #chatgptgenerated
+themeing_pattern <- theme(panel.grid.major = element_line(linetype = "dashed"), panel.grid.minor = element_blank(), legend.position = "none")
 data_plot_1                <- ggplot() +
                               geom_line(data = sim_rxode_dataframe_no_iiv, aes(x = as.numeric(time), y = as.numeric(Cc))) +
                               geom_point(data = sim_rxode_dataframe_no_iiv, aes(x = as.numeric(time), y = as.numeric(Cc)), size = 1.5) +
@@ -410,4 +410,5 @@ data_plot_4                <- ggplot() +
                               theme_light() + themeing_pattern +
                               theme(panel.grid.major = element_line(linetype = "dashed"), legend.position = "none")
 data_plot_4
+
 
